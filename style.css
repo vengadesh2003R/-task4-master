@@ -27,6 +27,7 @@ grd-item{
     grid-column: span 2;
     background-image: url(photo2.png);
     background-size: cover;
+    background-position: center;
     border-radius: 10px;
 }
 .gd-3{
@@ -34,6 +35,7 @@ grd-item{
     background-image: url(photo3.png);
     background-size: cover;
     border-radius: 10px;
+    background-position: center;
 }
 .gd-4{
     grid-column: span 1;
@@ -41,21 +43,25 @@ grd-item{
     background-image: url(photo_4.png);
     background-size: cover;
     border-radius: 10px;
+    background-position: center;
 }
 .gd-1{
     background-image: url(photo1.png);
     background-size: cover;
     border-radius: 10px;
+    background-position: center;
 }
 .gd-5{
     background-image: url(photo5.png);
     border-radius: 10px;
     background-size: cover;
+    background-position: center;
 }
 .gd-6{
     background-image: url(photo6.png);
     background-size: cover;
     border-radius: 10px;
+    background-position: center;
 }
 
 .profile{
