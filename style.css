@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 100vh;
+}
+.containg{
+    width: 60%;
+    margin: auto;
+    height: 100%;
+}
+.grdid-contaier{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+grd-item{
+  width: 100%;
+ 
+}
+.gd-2{
+    grid-column: span 2;
+    background-image: url(photo2.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.gd-3{
+    grid-column: span 2;
+    background-image: url(photo3.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.gd-4{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-image: url(photo_4.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.gd-1{
+    background-image: url(photo1.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.gd-5{
+    background-image: url(photo5.png);
+    border-radius: 10px;
+    background-size: cover;
+}
+.gd-6{
+    background-image: url(photo6.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.profile{
+    width: 20%;
+    border-radius: 12px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.btn1{
+ background: #E5E5E5;
+ color: #4E5150;
+ width: 17%;
+ padding: 10px;
+ text-align: center;
+ border-radius: 15px;
+ margin-top: 3%;
+}
+.btn1>a{
+    text-decoration: none;
+    color: #4E5150;
+
+}
+.grp-btn{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+footer{
+text-align: center;
+color: #4E5150;
+margin: 5%;
+}
+footer>a{
+text-align: center;
+color: #4E5150;
+}
+@media only screen and (min-width:250px) and (max-width:600px){
+.containg{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+.grp-btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.btn1{
+ background: #E5E5E5;
+ color: #4E5150;
+ width: 22%;
+ padding: 10px;
+ text-align: center;
+ border-radius: 15px;
+ margin-top: 3%;
+}
+}
